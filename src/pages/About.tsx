@@ -42,11 +42,11 @@ const About: React.FC = () => {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white text-black">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-12">Our Mission & Vision</h2>
+          <h2 className="text-3xl font-bold mb-12 ">Our Mission & Vision</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-indigo-50 rounded-lg p-8 shadow hover:shadow-2xl transform hover:scale-105 transition duration-300">
+            <div className="bg-indigo-100 rounded-lg p-8 shadow hover:shadow-2xl transform hover:scale-105 transition duration-300">
               <LightBulbIcon className="h-12 w-12 text-indigo-700 mb-4 mx-auto" />
               <h3 className="text-xl font-bold mb-2">Our Mission</h3>
               <p className="text-gray-700">
@@ -55,7 +55,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-indigo-50 rounded-lg p-8 shadow hover:shadow-2xl transform hover:scale-105 transition duration-300">
+            <div className="bg-indigo-100 rounded-lg p-8 shadow hover:shadow-2xl transform hover:scale-105 transition duration-300">
               <GlobeAltIcon className="h-12 w-12 text-indigo-700 mb-4 mx-auto" />
               <h3 className="text-xl font-bold mb-2">Our Vision</h3>
               <p className="text-gray-700">
