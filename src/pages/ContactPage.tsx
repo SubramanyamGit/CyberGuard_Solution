@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
       </section>
 
       {/* Contact Details & Form */}
-      <section className="py-20 w-full flex flex-col md:flex-row gap-10 px-6 md:px-20">
+      <section className="py-20 w-full flex flex-col md:flex-row gap-10 px-6 md:px-20 text-black">
         {/* Contact Details */}
         <div className="md:w-1/3 bg-white rounded-lg p-8 shadow">
           <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
